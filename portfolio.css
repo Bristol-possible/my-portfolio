@@ -1,0 +1,416 @@
+* {
+   /* transition: 0.5s; */
+   scroll-behavior: smooth;
+   /* background-color: black; */
+    color: burlywood; 
+   font-family: roboto;
+
+}
+#contain-1{
+   border-bottom: 5px solid black;
+   height: 930px;
+}
+#container-1{
+   border: 3px solid white;
+   height: 900px;
+   background-color: black;
+   color: white;
+}
+ #content-1 {
+   border: 2px solid ;
+   margin-top: 60px;
+   margin-left: 20px;
+   width: 95%;
+   border-radius: 2rem;
+}
+
+#body-1 {
+   margin-top: 20px;
+   font-size: 30px;
+}
+#shapes{
+   height: 100px;
+   width: 150px;
+   border: 2px solid burlywood;
+   margin-left: 30px;
+   border-top-right-radius: 35%;
+}
+#shape{
+   height: 80px;
+   width: 120px;
+   border: 2px solid burlywood;
+  margin-top: 10px;
+  margin-left: 13px;
+  position: absolute;
+  border-top-right-radius: 30%;
+
+}
+#space{
+   display: flex;
+}
+
+#texts {
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   text-align: center;
+   font-size: 20px;
+   margin-top: 0px;
+}
+
+.text {
+   position: absolute;
+   margin-bottom: 0;
+   height: 50%;
+   width: 100%;
+   opacity: 0;
+   animation-duration: 6s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+   animation-delay: 1s;
+}
+
+.text:nth-child(1) {
+   animation-name: fade;
+   animation-delay: 0s;
+}
+
+.text:nth-child(2) {
+   animation-name: fade;
+   animation-delay: 2s;
+}
+@keyframes fade{
+  10%, 20%{opacity: 1;}
+  25%, 100%{opacity: 0;}
+}
+
+#ball-1 {
+   width: 100px;
+   height: 100px;
+   border: 2px solid burlywood;
+   border-radius: 50%;
+   /* background-image: url("./OIP.webp");
+   background-size: cover; */
+      animation: bounce 2s linear alternate 2;
+      animation-delay: 2s;
+    animation-duration: 3s;
+}
+#ball-2{
+   width: 100px;
+   height: 100px;
+   border: 2px solid burlywood;
+   border-radius: 50%;
+   /* background-image: url("./R.jpg"); */
+   background-size: 150px;
+    animation: bounce 2s linear alternate 2;
+    animation-delay: 2s;
+    animation-duration: 3s;
+}
+#ball-2 img{
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   position: relative;
+}
+
+#balls {
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   margin-left: 100px;
+   gap: 50px;
+}
+@keyframes bounce{
+   from{
+      margin-buttom: 20px;
+   }
+   to{
+      margin-top: 0;
+   }
+}
+
+#teem-1 {
+   margin-left: 150px;
+}
+
+#teem-2 {
+   margin-left: 200px;
+}
+
+#teem-3 {
+   margin-left: 270px;
+}
+
+#buttom {
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   margin-top: 60px;
+   margin-bottom: 50px;
+   margin-left: 100px;
+}
+.button-1 h3{
+   border: 2px solid white;
+   border-radius: 1rem;
+   height: 40px;
+   width: 120px;
+   margin-top: 10px;
+   display: flex;
+   text-align: center;
+   align-items: center;
+}
+.button-1 a{
+   text-decoration: none;
+   color: white;
+   margin-left: 10px;
+}
+.button-1 h3:hover{
+   background-color: white;
+}
+.button-1 a:hover{
+   color: black;
+}
+#line{
+   height: 65px;
+   border: 2px solid white;
+   width: 25px;
+   flex-wrap: wrap;
+   border-radius: 8px;
+   margin-left: 870px;
+   margin-top: 30px;
+}
+#pave{
+   position: ;
+   width: 13px;
+   height: 13px;
+   border-radius: 50%;
+   border: 3px solid burlywood;
+   margin-left: 3px;
+   animation: bounce 1s linear alternate infinite;
+   animation-delay: 1s;
+}
+@keyframes bounce{
+   from{
+      margin-buttom: 90px;
+   }
+   to{
+      margin-top: 40px;
+   }
+}
+#card{
+  border: 2PX SOLID burlywood;
+  width: 220px;
+  margin-top: 30px;
+  height: 150px;
+  margin-left: 20px;
+}
+#container-2{
+   background-color: black;
+   height: 600px;
+    border-bottom: 5px solid black;
+
+}
+#content-2{
+background-color: black;
+color: white;
+font-size: 20px;
+height: 700px;
+margin-top: 50px;
+ border-bottom: 5px solid black;
+
+}
+#team-1{
+   margin-top: 10px;
+   margin-left: 20px;
+}
+#team-2{
+   margin-top: 5px;
+   margin-left: 30px;
+}
+#team-3{
+   margin-top: 20px;
+   margin-left: 50px;
+}
+#ment{
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+}
+#mint{
+   display: flex;
+   justify-content: space-around;
+   gap: 30px;
+   margin-top: 30px;
+   margin-right: 10px;
+}
+#body-2 header{
+   margin-top: 70px;
+   height: 100px;
+}
+#contain-2{
+   border-bottom: 5px solid black;
+   /* height: 530px; */
+}
+#footer{
+   margin-top: 200px;
+   margin-right: 70px;
+   margin-bottom: 0;
+}
+#container-3{
+   margin-top: 200px;
+   background-color: black;
+   height: 500px;
+   width: 100%;
+}
+.card-1{
+   border: 2px solid burlywood;
+   height: 300px;
+   width: 250px;
+   margin-left: 35px;
+   opacity: 0;
+    animation-duration: 8s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+   animation-fill-mode: forwards;
+   animation-delay: s;
+}
+.card-1 img{
+   height: 300px;
+   width: 250px;
+}
+.card-1:nth-child(1){
+   animation-name: nile;
+   animation-delay: 4s;
+}
+.card-1:nth-child(2){
+      animation-name: nile;
+   animation-delay: 5s;
+}
+.card-1:nth-child(3){
+      animation-name: nile;
+   animation-delay: 6s;
+}
+.card-1:nth-child(4){
+      animation-name: nile;
+   animation-delay: 7s;
+}
+
+@keyframes nile{
+  0% {opacity: 1;}
+  10%{opacity: 1;}
+  40%{opacity: 1;}
+  60%{opacity: 1;}
+}
+/* #card-2{
+    border: 2px solid burlywood;
+   height: 200px;
+   width: 250px;
+   margin-left: 50px;
+}
+#card-3{
+    border: 2px solid burlywood;
+   height: 200px;
+   width: 250px;
+   margin-left: 50px;
+} */
+#carde{
+   position: relative;
+   display: flex;
+   gap: 7px;
+}
+#image{
+   height: 400px;
+   width: 500px;
+   display: flex;
+   gap: 40px;
+   margin-right: 30px;
+   margin-top: 50px;
+}
+section h2{
+   margin-top: 20px;
+}
+#content-3{
+   margin-top: 0px;
+}
+#image-1{
+   height: 200px;
+   width: 200px;
+}
+#image-2{
+   height: 200px;
+   width: 200px;
+}
+form{
+ align-items: center;
+ border: 1px solid transparent;
+ border-radius: 1rem;
+ background-color: gray;
+ font-size: 20px;
+ width: 300px;
+ display: block;
+ gap: 10px;
+}
+form input{
+   border-radius: 10px;
+   height: 30px;
+   width: px;
+   outline: grey;
+   color: black;
+   font-size: 20px;
+}
+form button{
+   height: 40px;
+   width: 200px;
+   border-radius: 10px;
+   font-size: 20px;
+   background-color: black;
+   transition: 1s;
+   margin-top: 0px;
+}
+form button :hover{
+   background-color: white;
+   color: black;
+}
+form button a{
+   text-decoration: none;
+}
+#input{
+   height: 250px;
+}
+#content-5{
+background-color: black;
+}
+#pin{
+   height: 100px;
+}
+#message h2{
+   margin-left: 0px;
+   background-color: black;
+}
+#message{
+
+}
+#messages{
+   margin-left: 480px;
+}
+#mike h3{
+   margin-left: 400px;
+}
+#info{
+   font-size: 20px;
+}
+#nike{
+   margin-left: 20px;
+}
+#container-4{
+background-color: black;
+height: 500px;
+}
+#content-4{
+   background-color: gray;
+}
+button{
+   margin-top: 1px;
+}
+
